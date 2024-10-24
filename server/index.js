@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const server = require("http").createServer(app);
-
+//Express Serever for back end
 server.listen(1337);
 
 app.use(express.static(__dirname + "/../client"));
